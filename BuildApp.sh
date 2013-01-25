@@ -7,7 +7,7 @@ export ANDROID_HOME=/Users/Kelvin/adt-bundle-mac-x86_64/sdk
 #Build my app
 cd /Users/Kelvin/.jenkins/workspace/DemoProject/DemoProject
 rm -f build.xml
-android update project -p . -t android-14 -sdk
+android update project -p . -t android-14 -s
 
 #Update the tests
 cd /Users/Kelvin/.jenkins/workspace/DemoProject/DemoProjectTest
