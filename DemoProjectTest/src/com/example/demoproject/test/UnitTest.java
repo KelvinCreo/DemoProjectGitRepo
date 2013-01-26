@@ -22,6 +22,6 @@ public class UnitTest extends ActivityInstrumentationTestCase2<com.example.demop
 
 	public void testAddNumbers()
 	{
-		assertEquals(mainActivity.addNumbers(2, 1), 4);
+		assertEquals(mainActivity.addNumbers(2, 2), 4);
 	}
 }
